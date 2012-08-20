@@ -18,4 +18,4 @@ call pathogen#infect()
 ### Actual Settings
 These can be found in plugin/raptros.vim.
 
-[pathogen]: http://github.com/tpope/vim-repeat (Pathogen)
+[pathogen]: http://github.com/tpope/vim-pathogen (Pathogen)
