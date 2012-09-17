@@ -60,7 +60,7 @@ set backspace=indent,eol,start
 set showtabline=2
 
 let g:Tex_DefaultTargetFormat = 'pdf'
-let g:Tex_ViewRule_pdf = 'xpdf'
+let g:Tex_ViewRule_pdf = 'okular'
 
 " Source a global configuration file if available
 if filereadable("/etc/vim/vimrc.local")
