@@ -1,0 +1,15 @@
+#!/bin/bash
+
+servers=$(vim --serverlist)
+servcount=$(vim --serverlist|wc -l)
+
+if [[ -v VIM_SERVER && $servers =~ $VIM_SERVER ]]
+then
+    vim --servername $VIM_SERVER --remote-tab-silent "$@"
+elif (( $servcount > 0 ))
+then
+    target=$(vim --serverlist|head -n 1)
+    vim --servername $target --remote-tab-silent "$@"
+else 
+    vim -p "$@"
+fi
