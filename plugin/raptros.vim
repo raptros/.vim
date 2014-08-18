@@ -1,5 +1,6 @@
 " The vimrc:
 
+
 " Vim5 and later versions support syntax highlighting. Uncommenting the
 " following enables syntax highlighting by default.
 if has("syntax")
@@ -25,8 +26,7 @@ endif
 
 autocmd FileType python set omnifunc=pythoncomplete#Complete
 if has("autocmd") && exists("+omnifunc")
-    autocmd Filetype *
-                \   if &omnifunc == "" |
+    autocmd Filetype * if &omnifunc == "" |
                 \           setlocal omnifunc=syntaxcomplete#Complete |
                 \   endif
 endif
@@ -41,6 +41,9 @@ set smartcase		" Do smart case matching
 set autowrite		" Automatically save before commands like :next and :make
 "set hidden             " Hide buffers when they are abandoned
 "set mouse=a		" Enable mouse usage (all modes)
+set ruler
+set showmode
+"set ls=2
 
 "tab stuff
 set autoindent
