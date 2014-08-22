@@ -48,9 +48,9 @@ set showmode
 "tab stuff
 set autoindent
 set shiftwidth=4
+set softtabstop=4               "Insert 4 spaces when tab is pressed
 set expandtab
 set smarttab
-
 set shiftround
 
 set hlsearch
@@ -70,4 +70,4 @@ if filereadable("/etc/vim/vimrc.local")
     source /etc/vim/vimrc.local
 endif
 
-
+let g:neocomplete#enable_at_startup = 1
