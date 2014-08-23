@@ -1,3 +1,12 @@
 [submodule "bundle/neco-ghc"]
 	path = bundle/neco-ghc
 	url = git@github.com:eagletmt/neco-ghc.git
+[submodule "bundle/neocomplete.vim"]
+	path = bundle/neocomplete.vim
+	url = git@github.com:Shougo/neocomplete.vim.git
+[submodule "bundle/vim2hs"]
+	path = bundle/vim2hs
+	url = git@github.com:dag/vim2hs.git
+[submodule "bundle/ghcmod-vim"]
+	path = bundle/ghcmod-vim
+	url = git@github.com:eagletmt/ghcmod-vim.git
