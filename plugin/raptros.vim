@@ -71,3 +71,4 @@ if filereadable("/etc/vim/vimrc.local")
 endif
 
 let g:neocomplete#enable_at_startup = 1
+let g:necoghc_enable_detailed_browse = 1

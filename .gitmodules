@@ -1,0 +1,3 @@
+[submodule "bundle/neco-ghc"]
+	path = bundle/neco-ghc
+	url = git@github.com:eagletmt/neco-ghc.git

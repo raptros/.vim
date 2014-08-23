@@ -1,1 +1,1 @@
-"setlocal omnifunc=necoghc#omnifunc
+setlocal omnifunc=necoghc#omnifunc
