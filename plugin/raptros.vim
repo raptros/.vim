@@ -72,3 +72,5 @@ endif
 
 let g:neocomplete#enable_at_startup = 1
 let g:necoghc_enable_detailed_browse = 1
+let g:haskell_conceal = 0
+let g:haskell_autotags = 1
