@@ -16,3 +16,6 @@
 [submodule "bundle/supertab"]
 	path = bundle/supertab
 	url = git@github.com:ervandew/supertab.git
+[submodule "bundle/idris-vim"]
+	path = bundle/idris-vim
+	url = https://github.com/idris-hackers/idris-vim.git
